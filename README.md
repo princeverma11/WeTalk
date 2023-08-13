@@ -1,9 +1,9 @@
 
-# Talk-A-Tive
+# WeTalk
 
-Talk-a-tive is a Full Stack Chatting App.
+WeTalk is a Full Stack Chatting App.
 Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
-## Tech Stack
+
 
 **Client:** React JS
 
@@ -11,9 +11,9 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 
 **Database:** Mongo DB
   
-## Demo
+## WEB APP 
 
-https://talk-a-tive.herokuapp.com/
+(yaha link aayegi)
 
 ![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
 ## Run Locally
@@ -76,6 +76,6 @@ Start the Client
 ![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/profile.PNG)
 ## Made By
 
-- [@Piyush-eon](https://github.com/piyush-eon)
+- [@Prince Verma](https://github.com/princeverma11)
 
   
