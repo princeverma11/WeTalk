@@ -15,14 +15,8 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 
 https://wetalk-byprince.onrender.com/
 
-![](https://github.com/piyush-eon/mern-chat-app/blob/master/screenshots/group%20%2B%20notif.PNG)
+![](https://github.com/princeverma11n/WeTalk/blob/main/screenshots/group%20%2B%20notif.PNG)
 ## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/piyush-eon/mern-chat-app
-```
 
 Go to the project directory
 
