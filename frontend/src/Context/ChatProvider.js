@@ -11,13 +11,19 @@ const ChatProvider = ({ children }) => {
 
   const history = useHistory();
 
-  useEffect(() => {
-    const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-    setUser(userInfo);
+ useEffect(() => {
+  const userInfo = localStorage.getItem("userInfo")
+    ? JSON.parse(localStorage.getItem("userInfo"))
+    : null;
 
-    if (!userInfo) history.push("/");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [history]);
+  if (userInfo && userInfo.email) {
+    setUser(userInfo);
+  } else {
+    setUser(null);
+    history.push("/");
+  }
+}, [history]);
+
 
   return (
     <ChatContext.Provider
